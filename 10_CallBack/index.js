@@ -85,3 +85,9 @@ function getData(dataID, getNextData){
         }
     }, 5000);
 }
+
+getData(1, ()=>{
+    getData(2, ()=>{
+        getData(3);
+    })
+})
