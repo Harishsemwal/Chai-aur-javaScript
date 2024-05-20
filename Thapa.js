@@ -371,7 +371,7 @@
 // 3: update march to march (update). 
 // 4: delete June from an array. 
 
-const months = ['Jan', 'march', 'April', 'June', 'July'];
+// const months = ['Jan', 'march', 'April', 'June', 'July'];
 // const newmonth1 = months.splice(4,0,"Dec");
 // console.log(months);
 
@@ -805,22 +805,22 @@ const months = ['Jan', 'march', 'April', 'June', 'July'];
 
 // let d = new Date(0);
 // var d = new Date(1609578664863);
-var d = new Date(8600000*2);
-console.log(d.toLocaleDateString());
+// var d = new Date(8600000*2);
+// console.log(d.toLocaleDateString());
 
 
 
 // Dates Methods: ->: 
 
-const currDate = new Date();
+// const currDate = new Date();
 
 
-//how to get the individual date
-console.log(currDate.toLocaleTimeString());
-console.log(currDate.getFullYear());
-console.log(currDate.getMonth()); // 0 - 11 jan to dec
-console.log(currDate.getDate());
-console.log(currDate.getDay());
+// //how to get the individual date
+// console.log(currDate.toLocaleTimeString());
+// console.log(currDate.getFullYear());
+// console.log(currDate.getMonth()); // 0 - 11 jan to dec
+// console.log(currDate.getDate());
+// console.log(currDate.getDay());
 
 
 // 8:00:00
