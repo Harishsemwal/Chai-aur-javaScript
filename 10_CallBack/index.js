@@ -21,6 +21,7 @@ function calculator(a, b, call){
 calculator(1, 2, sum);
 
 
+
 // CallBack Hell : 
 
 
@@ -31,6 +32,8 @@ function getData(){
 setTimeout(() => {
     console.log("data", dataID);
 }, 4000);
+
+
 
 
 
@@ -91,3 +94,12 @@ getData(1, ()=>{
         getData(3);
     })
 })
+
+
+getData(1,()=>{
+    return getData(2);
+}).then((res) => {
+    return getData(3);
+}).then((res) => {
+    console.log(3);
+});
