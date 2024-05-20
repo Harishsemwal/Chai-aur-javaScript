@@ -1,6 +1,11 @@
 // const myArray = [0, 1, 2, 3, 4];
 // const myHero = ["Harish", "Prasad", "Semwal"];
 
+// const sum = (a, b) =>{
+//     console.log(a + b);
+// }
+// sum(3, 4);
+
 // const myArray = new Array(1, 2, 3);
 
 // +++++++++++ Methods ++++++++
@@ -33,13 +38,13 @@
 
 
 
-const myNum = [1, 2, 3];
+// const myNum = [1, 2, 3];
 // const myTotal = myNum.reduce(function(acc, currVal){
 //     console.log(`The ${acc} ans currval ${currVal}`);
 //     return acc + currVal;
 // }, 0)
 
 
-const myTotal = myNum.reduce((acc, curval) => (acc + curval),0);
+// const myTotal = myNum.reduce((acc, curval) => (acc + curval),0);
 
-console.log(myTotal);
+// console.log(myTotal);
